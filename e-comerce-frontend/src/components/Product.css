@@ -10,6 +10,12 @@
   justify-content: space-between;
   flex-direction: column;
   border-radius: 15px;
+  /* border: 1px solid #171717; */
+  
+}
+.product:hover {
+   /* border: 1px solid #171717;  */
+   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.671);
 }
 
 .product > img {
@@ -28,7 +34,7 @@
 }
 
 .info__name {
-  font-size: 1rem;
+  font-size: 1.5rem;
   overflow: hidden;
 }
 
@@ -46,11 +52,13 @@
   background-color: #f4f4f4;
   border: 1px solid #171717;
   font-size: 1rem;
+  border-radius: 6px;
 }
 
 .info__button:hover {
   background: #171717;
   color: #f4f4f4;
+  
 }
 
 @media (max-width: 1232px) {

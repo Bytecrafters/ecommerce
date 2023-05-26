@@ -45,7 +45,7 @@ function Index() {
             }}
           >
             <div style={{cursor: 'pointer'}} onClick={() => push('/')}>
-              <i class="fas fa-arrow-circle-left fa-5x"></i>
+              <i class="fas fa-arrow-circle-left fa-2x"></i>
             </div>
             <p>Sign In</p>
           </div>
